@@ -8,7 +8,9 @@
     "tsc": "npx tsc --watch",
     "node": "nodemon dist/server.js",
     "dev": "parallelshell \"tsc --watch\" \"nodemon dist/server.js\"",
-    "parafix": "npm install --save-dev parallelshell@3.0.1"
+    "parafix": "npm install --save-dev parallelshell@3.0.1",
+    "build": "npm install && tsc",
+    "start": "node ./dist/server.js"
   },
   "keywords": [],
   "author": "",
